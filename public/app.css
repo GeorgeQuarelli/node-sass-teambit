@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid #bdb5af;
+  margin-bottom: 100px;
 }
 
 #logo {
@@ -56,7 +57,65 @@
   padding-right: 7px;
 }
 
+#menu button a {
+  text-decoration: none;
+  color: #30488f;
+}
+
 #menu button p {
   line-height: 21px;
+}
+
+#menu button:hover {
+  background-color: #30488f;
+}
+
+#menu button:hover a {
+  color: white;
+}
+
+#menu button:hover img {
+  display: none;
+}
+
+#menu button:hover #logo_bianco {
+  display: block;
+}
+
+#menu #logo_bianco {
+  display: none;
+}
+
+.container {
+  width: 1165px;
+  height: 650px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.container img {
+  padding-left: 15px;
+  height: 350px;
+}
+
+.main_sx h2 {
+  line-height: 70px;
+  color: #58402c;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.main_sx p {
+  line-height: 30px;
+  color: #58402c;
+  font-size: 20px;
+  padding-right: 130px;
+}
+
+.main_dx {
+  width: 582px;
+  display: flex;
+  justify-content: flex-end;
 }
 
