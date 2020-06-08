@@ -1,0 +1,49 @@
+#header_container {
+  width: 1165px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #bdb5af;
+}
+
+#logo {
+  width: 582px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+#menu {
+  width: 582px;
+  display: flex;
+  justify-content: flex-end;
+  li {
+    padding-top: 32px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    float: left;
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  button {
+    width: 100px;
+    margin-top: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #30488f;
+    background-color: #ffff;
+    border: 1px solid #30488f;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    img {
+      padding-left: 10px;
+      padding-right: 7px;
+    }
+    p {
+      line-height: 21px;
+    }
+  }
+}
