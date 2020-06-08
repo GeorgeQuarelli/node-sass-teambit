@@ -114,27 +114,45 @@
 }
 
 .login {
-  width: 400px;
   margin-top: 30px;
   display: flex;
   flex-direction: row;
 }
 
-.login p {
+.login span {
   color: lightgrey;
   font-size: 14px;
-  margin-top: 5px;
+  margin-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .login button {
+  width: 200px;
   padding-top: 6px;
   padding-bottom: 6px;
   color: #30488f;
-  background-color: #ffff;
+  background-color: #30488f;
   border: 1px solid #30488f;
   border-radius: 8px;
+}
+
+.login button p {
+  margin-top: 3px;
+}
+
+.login button img {
+  height: 20px;
+  float: left;
+}
+
+.login button a {
+  text-decoration: none;
+  color: white;
+}
+
+.login button:hover {
+  background-color: #233569;
 }
 
 .email p {
