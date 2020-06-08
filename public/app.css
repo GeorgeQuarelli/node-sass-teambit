@@ -88,10 +88,10 @@
 
 .container {
   width: 1165px;
-  height: 650px;
   margin: auto;
   display: flex;
   flex-direction: row;
+  margin-bottom: 150px;
 }
 
 .container img {
@@ -99,23 +99,58 @@
   height: 350px;
 }
 
-.main_sx h2 {
+.title h2 {
   line-height: 70px;
   color: #58402c;
   font-size: 50px;
   margin-bottom: 30px;
 }
 
-.main_sx p {
+.title p {
   line-height: 30px;
   color: #58402c;
   font-size: 20px;
   padding-right: 130px;
 }
 
-.main_dx {
-  width: 582px;
+.login {
+  width: 400px;
+  margin-top: 30px;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.login p {
+  color: lightgrey;
+  font-size: 14px;
+  margin-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.login button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #30488f;
+  background-color: #ffff;
+  border: 1px solid #30488f;
+  border-radius: 8px;
+}
+
+.email p {
+  font-size: 13px;
+  margin-top: 20px;
+  color: #58402c;
+  float: left;
+}
+
+.email i {
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.section_1 {
+  height: 500px;
+  background-color: #ffe7d2;
 }
 
