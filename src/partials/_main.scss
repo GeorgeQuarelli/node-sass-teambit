@@ -23,14 +23,14 @@
 .title {
   h2 {
     line-height: 70px;
-    color: #58402c;
+    color: $text_brown;
     font-size: 50px;
     margin-bottom: 30px;
   }
 
   p {
     line-height: 30px;
-    color: #58402c;
+    color: $text_brown;
     font-size: 20px;
     padding-right: 130px;
   }
@@ -53,9 +53,9 @@
     width: 200px;
     padding-top: 6px;
     padding-bottom: 6px;
-    color: #30488f;
-    background-color: #30488f;
-    border: 1px solid #30488f;
+    color: $button_blue;
+    background-color: $button_blue;
+    border: 1px solid $button_blue;
     border-radius: 8px;
 
     p {
@@ -83,7 +83,7 @@
   p {
     font-size: 13px;
     margin-top: 20px;
-    color: #58402c;
+    color: $text_brown;
     float: left;
   }
 
@@ -108,7 +108,7 @@
   padding-left: 260px;
   padding-right: 260px;
   text-align: center;
-  color: #58402c;
+  color: $text_brown;
 }
 
 .image_col {
@@ -180,7 +180,7 @@
     padding-right: 260px;
     padding-bottom: 50px;
     text-align: center;
-    color: #58402c;
+    color: $text_brown;
   }
 }
 
@@ -204,7 +204,7 @@
     padding-right: 180px;
     margin-bottom: 20px;
     line-height: 30px;
-    color: #58402c;
+    color: $text_brown;
   }
 
   p {
@@ -213,17 +213,17 @@
     padding-right: 160px;
     margin-bottom: 20px;
     line-height: 30px;
-    color: #58402c;
+    color: $text_brown;
   }
 
   a {
     font-size: 20px;
-    color: #3048ac;
+    color: $link_blue;
     text-decoration: none;
   }
 
   i {
-    color: #3048ac;
+    color: $link_blue;
   }
 
   img {

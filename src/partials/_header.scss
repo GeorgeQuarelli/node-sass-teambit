@@ -35,9 +35,9 @@
     margin-top: 25px;
     padding-top: 6px;
     padding-bottom: 6px;
-    color: #30488f;
+    color: $button_blue;
     background-color: #ffff;
-    border: 1px solid #30488f;
+    border: 1px solid $button_blue;
     border-radius: 8px;
     display: flex;
     flex-direction: row;
@@ -49,7 +49,7 @@
 
     a {
       text-decoration: none;
-      color: #30488f;
+      color: $button_blue;
     }
 
     p {
@@ -57,7 +57,7 @@
     }
 
     &:hover {
-      background-color: #30488f;
+      background-color: $button_blue;
 
       a {
         color: white;
