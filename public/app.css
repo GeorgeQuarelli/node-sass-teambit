@@ -335,12 +335,18 @@
 }
 
 #title h3 {
-  line-height: 40px;
+  padding-bottom: 20px;
   font-size: 40px;
-  padding-right: 30px;
-  margin-bottom: 20px;
+  padding-left: 75px;
+  padding-right: 10px;
   line-height: 40px;
   color: #58402c;
+  float: left;
+}
+
+#title img {
+  height: 40px;
+  float: left;
 }
 
 .column {
@@ -352,7 +358,7 @@
 }
 
 .block_quote {
-  margin-top: 100px;
+  margin-top: 40px;
   margin-bottom: 100px;
   width: 630px;
   background-color: white;
