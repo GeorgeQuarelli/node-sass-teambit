@@ -100,10 +100,6 @@
 }
 
 .container_2 {
-  width: 1300px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
   margin-bottom: 150px;
 }
 
@@ -267,6 +263,7 @@
 }
 
 .feedback {
+  margin-left: 10%;
   margin-top: 80px;
   display: flex;
   flex-direction: row;
@@ -283,7 +280,7 @@
 .description h3 {
   line-height: 40px;
   font-size: 25px;
-  padding-right: 180px;
+  padding-right: 30px;
   margin-bottom: 20px;
   line-height: 30px;
   color: #58402c;
@@ -292,7 +289,7 @@
 .description p {
   line-height: 40px;
   font-size: 20px;
-  padding-right: 160px;
+  padding-right: 30px;
   margin-bottom: 20px;
   line-height: 30px;
   color: #58402c;
@@ -312,5 +309,105 @@
   margin-left: 40px;
   margin-top: 10px;
   height: 200px;
+}
+
+.surveys {
+  margin-left: 24%;
+  margin-top: 150px;
+  margin-bottom: 130px;
+  display: flex;
+  flex-direction: row;
+}
+
+.description img {
+  height: 250px;
+}
+
+.section_3 {
+  background-color: #ffe7d2;
+}
+
+#title {
+  width: 630px;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+}
+
+#title h3 {
+  line-height: 40px;
+  font-size: 40px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  color: #58402c;
+}
+
+.column {
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block_quote {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 630px;
+  background-color: white;
+  border-radius: 9px;
+  border: 1px solid lightgrey;
+  position: relative;
+}
+
+.text_quote {
+  padding-top: 30px;
+  width: 550px;
+  margin: auto;
+}
+
+.text_quote p {
+  padding-bottom: 15px;
+}
+
+.icon_quote img {
+  height: 50px;
+  position: absolute;
+  margin-top: -26px;
+  margin-left: -3px;
+}
+
+.team_found {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.team_found h4 {
+  font-size: 14px;
+  color: #3048ac;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.team_found p {
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.avatar {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.avatar img {
+  height: 40px;
+}
+
+.founders_description {
+  display: flex;
+  flex-direction: column;
 }
 
